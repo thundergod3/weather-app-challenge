@@ -52,7 +52,7 @@ const App = () => {
   }, [debouncedKeyword, handleGetWeatherList]);
 
   return (
-    <div className="mx-auto max-w-xl mt-6 flex flex-col gap-4">
+    <div className="mx-auto max-w-xl mt-6 flex flex-col gap-4 px-4">
       <SearchField keyword={keyword} onKeywordChange={setKeyword} />
       {renderLayout()}
     </div>
